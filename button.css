@@ -1,0 +1,104 @@
+h1{
+    padding: 18px 14px;
+    text-shadow: 3px 4px 8px purple;
+
+}
+.dropdown{
+    text-align: center;
+    justify-content: none;
+    margin: 36px;
+    position: relative;
+    display:inline-block;
+    
+}
+.dc-1{
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+    box-shadow: 0px 5px 9px 0px blue;
+    z-index: -2;
+    padding: 12px 16px;
+}
+.dropdown:hover .dc-1{
+    display: block;
+}
+.dc-2{
+    display: none;
+    position: absolute;
+    padding: 12px 16px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 5px 9px 0px blue;
+    z-index: -2;
+
+}
+.dropdown:hover .dc-2{
+    display: block;
+}
+.dc-3{
+    
+    display: none;
+    position: absolute;
+    padding: 12px 16px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 5px 9px 0px blue;
+    z-index: -2;
+    box-shadow: 7px 8px 10px black;
+}
+.dropdown:hover .dc-3{
+    display: block;
+}
+.dc-4{
+    
+    display: none;
+    position: absolute;
+    padding: 16px 12px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 5px 9px 0px blue;
+    z-index: -2;
+}
+.dropdown:hover .dc-4{
+    display: block;
+}
+.btn{
+    padding: 10px,20px;
+    border: 2px solid #3498db;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Gemunu Libre', sans-serif;
+    background: none;
+    cursor:pointer;
+    margin: 10px;
+    transition: 0.8s;
+    background-color: cornflowerblue;
+    box-shadow: 12px 8px 7px rgb(5, 54, 5);
+    
+}
+.btn1,.btn3{
+    color: aqua;
+}
+.btn1:hover,.btn3:hover{
+    color:teal
+
+}
+.btn2,.btn4{
+    color: brown;
+}
+.btn2:hover,.btn4:hover{
+    background-color: crimson;
+    color:antiquewhite;
+    transition: 1s;
+}
+.btn::before{
+    height: 100;
+    width: 100%;
+    content: "";
+    z-index: -1;
+    
+}
+
+/* .btn:hover{
+    background-color: crimson;
+    color: aliceblue;
+
+} */
+    
